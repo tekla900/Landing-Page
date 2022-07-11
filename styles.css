@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid red; */
     font-family: 'Roboto';
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 body {
@@ -14,15 +14,10 @@ body {
 
 .header {
     display: flex;
-    /* background-color: aqua; */
     flex-direction: column;
-    /* width: 80%; */
-    /* gap: 152px; */
-    /* align-items: center; */
     padding: 20px 20%;
     margin: 0 auto;
     background-color: #1F2937;
-    /* color: white */
 }
 
 .navigation, ul {
@@ -43,9 +38,11 @@ li {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .left {
     color: #E5E7EB;
 }
+
 .logo {
     margin-right: auto;
     font-size: 24px;
@@ -56,17 +53,11 @@ li {
     display: flex;
     gap: 24px;
     padding: 100px 0;
-    /* padding-bottom: 5px; */
 }
 
-.content p {
-    /* padding: 25px 0; */
+.placeholder {
+    margin: 50px;
 }
-img {
-    /* height: auto; */
-    /* max-width: auto; */
-}
-
 
 
 .left {
@@ -77,11 +68,9 @@ img {
     width: 50%;
     display: flex;
     justify-content: center;
-    /* margin: 0 auto; */
     align-items: center;
     background-color: gray;
     color: #F9FAF8;
-    /* text-align: center; */
 }
 
 /* ---------- */
@@ -91,13 +80,12 @@ img {
     align-items: center;
     padding: 50px;
     gap: 30px;
-    /* justify-content: center; */
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
@@ -106,24 +94,21 @@ img {
     font-size: 36px;
     font-weight: 900;
 }
+
 .slide {
-    /* border: 2px solid blue; */
-    /* width: 15%; */
     width: 100px;
+    width: 150px;
     display: flex;
-    /* height: 3400px; */
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    height: 175px;
+    height: 160px;
     text-align: center;
 }
 
 .a {
-    width: 100px;
+    width: 150px;
     height: 100%;
     border: 2px solid #3882F6;
     border-radius: 10px;
-    /* background-color: #3882F6; */
 }
 
 
@@ -154,11 +139,10 @@ span {
     background-color: #3882F6;
     color: white;
     display: flex;
-    width: 80%;
+    width: 45%;
     margin: 70px auto;
     padding: 20px 80px;
     border-radius: 5px;
-    /* flex-direction: row; */
 }
 
 .sign-right {
@@ -166,14 +150,10 @@ span {
 }
 
 .sign-right button {
-    /* background-color: #F9FAF8; */
-    /* color: #3882F6; */
     border-radius: 8px;
     border: 2px solid;
 }
-.main {
-    flex: 1;
-}
+
 
 .footer {
     display: flex;
@@ -181,7 +161,6 @@ span {
     color: #F9FAF8;
     justify-content: center;
     padding: 20px;
-
 }
 
 button {
